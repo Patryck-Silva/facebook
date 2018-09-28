@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="pt-br">
+
+  <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Facebook</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Icone aba -->
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+      <!-- Font awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+      <!-- Css -->
+      <link rel="stylesheet" href="facebook.css" type="text/css"/>
+
+  </head>
+
+  <body style="background: #e9ebee;">
+
+      <nav class="navbar navbar-expand-lg py-1" style="background-color: #3b5998;">
+
+        <div class="container">
+
+          <!-- Icone NavBar -->
+          <a class="navbar-brand" href="#">
+            <i class="fab fa-facebook-square fa-lg" style="color: white;"></i>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+              <!-- Barra de pesquisa -->
+              <form class="form-inline">
+                <input class="form-control py-0" type="search" placeholder="Pesquisar" aria-label="Search" id="barra_de_pesquisa">
+                <button class="btn py-0 mr-5" type="submit" id="botao_barra_de_pesquisa"><i class="fas fa-search"></i></button>
+              </form>
+
+              <!-- Perfil -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+
+                  <button type="button" class="btn itens_navbar opacity rounded-0">
+
+                    <img src="img/Usuario" class="img_usuario" alt="Usuario"/>
+
+                    <a href="perfil.html" class="itens_navbar">Rafael</a>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+              <!-- Página Inicial -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+
+                  <button type="button" class="btn itens_navbar opacity rounded-0">
+
+                    <a href="pagina_incial.html" class="itens_navbar">Página Inicial</a>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+              <!-- Encontrar amigos -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+
+                  <button type="button" class="btn itens_navbar opacity rounded-0 mr-3">
+
+                    <a href="encontrar_amigos.html" class="itens_navbar">Encontrar amigos</a>
+
+                  </button>
+
+                </div>
+
+              </div>
+
+              <!-- Solicitação de amizade -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="btn-group" role="group">
+
+                  <button id="Solicitação_de_amizade" type="button" class="btn dropdown itens_navbar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <i class="fas fa-user-friends fa-lg reviver"></i>
+
+                  </button>
+
+                  <div class="dropdown-menu dropdowns" aria-labelledby="Solicitação_de_amizade">
+
+                    <a class="dropdown-item" href="#">
+
+                      <a href="encontrar_amigos.html" class="ml-1 float-left">Solicitação de amizade</a>
+
+                      <a href="#">Configurações</a>
+
+                      <a href="#" class="float-right">Encontrar amigos</a>
+
+                    </a>
+
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- Mensenger -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="btn-group btn-group-sm" role="group" aria-label="itens_do_NavBar">
+
+                    <button type="button" class="btn itens_navbar mx-0 rounded-0">
+
+                        <a href="https://www.messenger.com/"><i class="fab fa-facebook-messenger fa-2x reviver"></i></a>
+
+                    </button>
+
+                </div>
+
+              </div>
+
+              <!-- Notificação -->
+              <div class="btn-toolbar" role="toolbar" aria-label="itens_do_NavBar">
+
+                <div class="dropdown">
+
+                  <button class="btn dropdown itens_navbar" type="button" id="ajuda_rapida" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                    <i class="fas fa-globe-americas fa-lg reviver"></i>
+
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+
+                    <a class="dropdown-item" href="#">Action</a>
+
+                    <a class="dropdown-item" href="#">Another action</a>
+
+                    <a class="dropdown-item" href="#">Something else here</a>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <!-- Ajuda Rapida -->
+              <div class="dropdown">
+
+                <button class="btn dropdown itens_navbar reviver" type="button" id="Outros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-question-circle fa-lg reviver"></i>
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+
+                  <a class="dropdown-item" href="#">Action</a>
+
+                  <a class="dropdown-item" href="#">Another action</a>
+
+                  <a class="dropdown-item" href="#">Something else here</a>
+
+                </div>
+
+              </div>
+
+              <!-- Outros -->
+              <div class="dropdown">
+                <button class="btn dropdown-toggle itens_navbar reviver" type="button" id="Outros" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+
+                <div class="dropdown-menu" aria-labelledby="ajuda_rapida">
+
+                  <a class="dropdown-item" href="#">Action</a>
+
+                  <a class="dropdown-item" href="#">Another action</a>
+
+                  <a class="dropdown-item" href="#">Something else here</a>
+
+                </div>
+
+              </div>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-3">
+
+            <!-- Usuario_2 -->
+            <div class="btn-group my-1">
+
+              <button type="button" class="btn coluna_direita rounded-0 cd_reviver">
+
+                <img src="img/Usuario.jpg" class="img_usuario" alt=""> Rafael Guedes Lang
+
+              </button>
+
+              <button type="button" class="btn coluna_direita cd_reviver dropdown-toggle-split rounded-0 py-0 px-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <h4><strong>...</strong></h4>
+
+              </button>
+
+              <div class="dropdown-menu dropdown-menu-right">
+
+                <a class="dropdown-item rounded-0" style="font-size: 12px;" href="#">Editar perfil</a>
+
+              </div>
+
+            </div>
+
+            <!-- Feed Noticias -->
+            <div class="btn-group mt-3">
+
+              <button type="button" style="background-color: #f7f7f7;" class="btn coluna_direita rounded-0 pr-5">
+
+                <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMyIDMyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAzMiAzMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yOCw3VjNIMHYyMmMwLDAsMCw0LDQsNGgyNWMwLDAsMy0wLjA2MiwzLTRWN0gyOHogTTQsMjdjLTIsMC0yLTItMi0yVjVoMjR2MjAgICAgYzAsMC45MjEsMC4yODQsMS41NTksMC42NzYsMkg0eiIgZmlsbD0iIzAwMDAwMCIvPgoJCTxyZWN0IHg9IjQiIHk9IjkiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyIiBmaWxsPSIjMDAwMDAwIi8+CgkJPHJlY3QgeD0iMTUiIHk9IjIxIiB3aWR0aD0iNyIgaGVpZ2h0PSIyIiBmaWxsPSIjMDAwMDAwIi8+CgkJPHJlY3QgeD0iMTUiIHk9IjE3IiB3aWR0aD0iOSIgaGVpZ2h0PSIyIiBmaWxsPSIjMDAwMDAwIi8+CgkJPHJlY3QgeD0iMTUiIHk9IjEzIiB3aWR0aD0iOSIgaGVpZ2h0PSIyIiBmaWxsPSIjMDAwMDAwIi8+CgkJPHJlY3QgeD0iNCIgeT0iMTMiIHdpZHRoPSI5IiBoZWlnaHQ9IjEwIiBmaWxsPSIjMDAwMDAwIi8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+                Feed Notícias
+
+              </button>
+
+              <button type="button" style="background-color: #f7f7f7;border: 0px;" class="btn coluna_direita dropdown-toggle-split rounded-0 py-0 px-0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                <h4><strong>...</strong></h4>
+
+              </button>
+
+              <div class="dropdown-menu dropdown-menu-right">
+
+                <a class="dropdown-item"  style="font-size: 12px;" href="#">
+
+                   <div class="custom-control custom-checkbox ">
+
+                     <input type="checkbox" class="custom-control-input" id="principais_historias">
+
+                     <label class="custom-control-label" for="principais_historias">Principais historias</label>
+
+                   </div>
+
+                 </a>
+
+                 <a class="dropdown-item"  style="font-size: 12px;" href="#">
+
+                    <div class="custom-control custom-checkbox ">
+
+                      <input type="checkbox" class="custom-control-input" id="mais_recentes">
+
+                      <label class="custom-control-label" for="mais_recentes">Mais Recentes</label>
+
+                    </div>
+
+                  </a>
+
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item"  style="font-size: 12px;" href="#">Editar preferências</a>
+
+
+              </div>
+
+            </div>
+
+            <div class="btn-group">
+
+              <button type="button" class="btn coluna_direita rounded-0 cd_reviver" style="padding-right: 90px;">
+
+                <a href="https://www.messenger.com" class="text-dark"><i class="fab fa-facebook-messenger fa-lg" style="color: #3b5998;"></i> Mensenger </a>
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <!-- Não mexa daqui para baixo!!! -->
+      <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+      <script src="./assets/js/vendor/popper.min.js"></script>
+      <script src="./dist/js/bootstrap.min.js"></script>
+      <script src="./assets/js/vendor/holder.min.js"></script>
+      <script>
+          // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function() {
+                $('[data-toggle="popover"]').popover()
+                'use strict';
+                window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                        form.addEventListener('submit', function(event) {
+                            if (form.checkValidity() === false) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+                            form.classList.add('was-validated');
+                        }, false);
+                    });
+                }, false);
+            })();
+      </script>
+
+    </body>
+
+</html>

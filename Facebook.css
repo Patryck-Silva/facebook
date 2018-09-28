@@ -1,0 +1,74 @@
+#barra_de_pesquisa{
+
+    padding-right: 170px;
+
+    border-radius: 2.5px 0px 0px 2.5px;
+
+}
+#botao_barra_de_pesquisa{
+
+    border-radius: 0px 2.5px 2.5px 0px;
+
+    background-color: #E8E8E8;
+
+}
+.itens_navbar{
+
+    color: white;
+
+    background-color: #3b5998;
+
+    border-color: #3b5998;
+
+}
+a:hover{
+    text-decoration:none;
+}
+button.opacity:hover{
+
+    opacity: 0.2;
+}
+.reviver{
+
+    color: #1C1C1C
+
+}
+i.reviver:hover{
+
+    color: #000;
+}
+.dropdowns{
+
+    height:200px;
+
+    width: 400px;
+
+}
+.img_usuario{
+
+    height: 24px;
+
+    width: 24px;
+
+    border-radius: 100px;
+
+}
+a.itens_navbar:hover{
+
+    color: white;
+
+    text-decoration: none;
+
+}
+/* Conteudo do site */
+.coluna_direita{
+
+    font-size: 14px;
+
+    background-color: #e9ebee;
+
+    border-color: #e9ebee ;
+}
+button.cd_reviver:hover{
+    background-color: 	#f7f7f7;
+}
